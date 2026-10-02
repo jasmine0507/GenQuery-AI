@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+*.log
+.env
+
+# Node / Angular
+node_modules/
+www/
+.angular/
+dist/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Generated RAG / vector database
+studentbeapi/chroma_db/
+
+# Uploaded/private documents
+studentbeapi/media/documents/
+
+# Database
+studentbeapi/db.sqlite3

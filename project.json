@@ -1,0 +1,40 @@
+{
+  "name": "genquery-ai-powered-assistant",
+  "title": "GenQuery-AI Powered Assistant",
+  "description": "An AI-powered student assistant using Angular/Ionic, Django REST Framework, Retrieval-Augmented Generation (RAG), document processing, vector search, and Google Gemini.",
+  "frontend": {
+    "framework": "Angular",
+    "ui_framework": "Ionic",
+    "language": "TypeScript"
+  },
+  "backend": {
+    "framework": "Django",
+    "api_framework": "Django REST Framework",
+    "language": "Python"
+  },
+  "ai": {
+    "approach": "Retrieval-Augmented Generation",
+    "llm": "Google Gemini",
+    "features": [
+      "Document processing",
+      "Text chunking",
+      "Embeddings",
+      "Vector search",
+      "Context-aware question answering"
+    ]
+  },
+  "features": [
+    "Student authentication",
+    "Student dashboard",
+    "Document upload",
+    "AI assistant",
+    "Conversation management",
+    "Source and chunk information"
+  ],
+  "repository_structure": {
+    "frontend": "studentfe",
+    "backend": "studentbeapi",
+    "documentation": "docs/PROJECT_DOCUMENT.md",
+    "readme": "README.md"
+  }
+}
